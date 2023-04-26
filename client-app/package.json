@@ -1,0 +1,81 @@
+{
+  "name": "stampify-app",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@greatsumini/react-facebook-login": "^3.3.3",
+    "@mdi/js": "^7.2.96",
+    "@mdi/react": "^1.6.1",
+    "@nextui-org/react": "^1.0.0-beta.10",
+    "@types/qrcode": "^1.5.0",
+    "@zxing/library": "^0.19.2",
+    "axios": "^1.2.3",
+    "cra-template-typescript": "1.2.0",
+    "date-fns": "^2.20.1",
+    "eslint-config-next": "^13.0.7",
+    "formik": "^2.2.9",
+    "history": "^5.3.0",
+    "mobx": "^6.7.0",
+    "mobx-react-lite": "^3.4.0",
+    "next-images": "^1.8.4",
+    "qrcode": "^1.5.1",
+    "react": "^18.2.0",
+    "react-burger-menu": "^3.0.8",
+    "react-card-flip": "^1.2.0",
+    "react-cookie-consent": "^8.0.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-image": "^4.0.3",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^9.0.8",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "typescript": "^4.9.4",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.1",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "set HTTPS=true&&set SSL_CRT_FILE=./localhost.pem&&set SSL_KEY_FILE=./localhost-key.pem&&react-scripts start",
+    "build": "set BUILD_PATH=../API/wwwroot&& react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@types/uuid": "^9.0.1",
+    "autoprefixer": "10.4.13",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.3",
+    "lint-staged": "13.0.3",
+    "postcss": "8.4.19",
+    "prettier": "2.7.1",
+    "prettier-plugin-tailwindcss": "0.1.13",
+    "tailwindcss": "^3.2.4"
+  }
+}

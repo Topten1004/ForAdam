@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: IBMPlexSans, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+:root {
+  --bg-purple-100: rgb(237, 43, 93);
+  --bg-purple-400: rgb(235, 20, 76);
+  --bg-purple-500: rgb(211, 18, 68);
+  --bg-purple-600: rgb(188, 16, 60);
+  --bg-purple-700: rgb(164, 14, 53);
+  --bg-purple-800: rgb(141, 12, 45);
+  --bg-whiteRed-100: rgb(255, 240, 240);
+
+  --text-purple-400: rgb(235, 20, 76);
+  --text-purple-500: rgb(211, 18, 68);
+  --text-purple-600: rgb(164, 14, 53);
+  --text-purple-700: rgb(194, 24, 91);
+  --bg-light-100: rgb(248, 187, 208);
+
+  /* --bg-purple-100: rgb(248, 187, 208);
+  --bg-purple-400: rgb(236, 64, 122);
+  --bg-purple-500: rgb(233, 30, 99);
+  --bg-purple-600: rgb(216, 27, 96);
+  --bg-purple-700: rgb(194, 24, 91);
+  --bg-purple-800: rgb(173, 20, 87);
+
+  --text-purple-400: rgb(66, 165, 245);
+  --text-purple-500: rgb(233, 30, 99);
+  --text-purple-600: rgb(216, 27, 96);
+  --text-purple-700: rgb(194, 24, 91); */
+
+  /* --bg-purple-100: rgb(243 232 255);
+  --bg-purple-400: rgb(192 132 252);
+  --bg-purple-500: rgb(168 85 247);
+  --bg-purple-600: rgb(142, 36, 170);
+  --bg-purple-700: rgb(126 34 206);
+  --bg-purple-800: rgb(107 33 168);
+
+  --text-purple-400: rgb(192 132 252);
+  --text-purple-500: rgb(168 85 247);
+  --text-purple-600: rgb(147 51 234);
+  --text-purple-700: rgb(126 34 206); */
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.modal>.content {
+    display: block;
+    padding: 1rem 4rem!important;
+  }
+}
