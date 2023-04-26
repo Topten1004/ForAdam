@@ -56,3 +56,69 @@ body {
     padding: 1rem 4rem!important;
   }
 }
+
+.pushable {
+  min-height: 100vh;
+}
+
+.ui.thin.left.sidebar, .ui.thin.right.sidebar {  
+  width: 200px;
+}
+
+.sidebar.ui.menu .item.my-item {
+  text-align: left;  
+  margin-right: 15px;
+  border-radius: 0px 10px 10px 0px !important;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.sidebar.ui.labeled.icon.menu .item > svg {
+  display: inline-block;
+  font-size: 1.2em !important;
+  margin-right: 10px !important;  
+}
+
+.sidebar.ui.labeled.icon.menu .item>.icon:not(.dropdown) {
+  display: inline-block;
+  font-size: 1.2em !important;
+  margin-right: 10px !important;  
+}
+
+
+.sidebar.ui.visible.thin.left.sidebar~.fixed, 
+.sidebar.ui.visible.thin.left.sidebar~.pusher {
+  transform: translate3d(200px,0,0);
+}
+
+.sidebar.ui.vertical.inverted.menu .item:before {
+  content: unset;
+}
+
+.sidebar.ui.vertical.menu .active.item {
+  background: rgba(0,0,0,.1);
+}
+
+.sidebar .logo {
+  width: 100%;
+  height: 80px;
+  background: url('../../../public/assets/logo.png') center no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+.ui.header {
+  height: 50px;
+    line-height: 50px;
+}
+
+.ui.header > a:first-child {
+  float: left;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 10px;
+}

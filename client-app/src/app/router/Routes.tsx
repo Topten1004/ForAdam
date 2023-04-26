@@ -14,6 +14,7 @@ import VenueForm from "../features/venues/form/VenueForm";
 import QrScanner from "../features/stamp/QRscanner";
 import QrHome from "../features/stamp/Home";
 import RequiredAuth from "./RequiredAuth";
+import Dashboard from "../features/dashboard/Dashboard";
 
 export const routes: RouteObject[] = [
   {
@@ -89,6 +90,10 @@ export const routes: RouteObject[] = [
         element: <Navigate replace to="/not-found" />,
       },
     ],
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
   },
 ];
 
